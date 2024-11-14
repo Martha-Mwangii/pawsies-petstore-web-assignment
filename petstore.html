@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawsies Pet Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ 
+  <header>
+    <h1>Welcome to PAWSIES</h1>
+
+   <!-- <img src="images/PAWSIES.jpeg" alt="Pawsies Logo" title="Pawsies Pet Store Logo"> --> 
+    <nav>
+      <a href="#about-us">About Us</a>
+      <a href="#supplies">Supplies</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>PAWSIES is a pet shop dedicated to providing high-quality pets and pet supplies to keep your animals healthy and happy.
+     We specialize in offering a variety of pets, pet feed, toys,accessories,grooming and Veterinary Services. 
+     Whether you're looking for a new pet or supplies to care for your current one, we have everything you need!</p>
+  </section>
+
+  <!-- Available Pets Section -->
+  <section id="available-pets">
+    <h2>Available Pets</h2>
+    <p>We have a variety of pets available for adoption. Below is a list of some of the pets you can find at our store:</p>
+    <ul>
+      <li>Dogs</li>
+      <li>Cats</li>
+      <li>Rabbits</li>
+        <li>Hamsters</li>
+    </ul>
+    <p>Feel free to visit our store to meet them in person!</p>
+  </section>
+
+ 
+  <section id="supplies">
+    <h2>Pet Supplies</h2>
+    <p>In addition to pets, we offer a wide range of pet supplies. Here's a quick look at some of the items we sell:</p>
+    <ul>
+      <li>Pet Food</li>
+      <li>Toys</li>
+      <li>Leashes and Collars</li>
+      <li>Pet Beds</li>
+      <li>Health and Grooming Products</li>
+    </ul>
+  </section>
+
+ 
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>At PAWSIES, we offer the following services to keep your pets in top shape:</p>
+    <ol>
+      <li>Pet Grooming</li>
+      <li>Veterinary Care</li>
+      <li>Training and Daycare</li>
+      <li>Pet Adoption Services</li>
+    </ol>
+  </section>
+
+  <!-- grooming Tutorial Video -->
+  <section id="tutorial">
+    <h2>Pet Care Tutorial</h2>
+    <p>Watch our tutorial on how to properly groom your pet:</p>
+    <video width="320" height="240" controls>
+      <source src="video/pet-grooming.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to schedule an appointment, please fill the form below:</p>
+    <form action="/submit" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- google map section-->
+  <section id="location">
+    <h2>Find Us</h2>
+    <p>We are located in the  city. Visit our store to meet our pets ,for supplies and available services:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Table -->
+  <section id="pricing">
+    <h2>Pet Pricing</h2>
+    <table>
+      <tr>
+        <th>Pet Type</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Dog</td>
+        <td>KSH 5000</td>
+      </tr>
+      <tr>
+        <td>Cat</td>
+        <td>KSH 2000</td>
+      </tr>
+      <tr>
+        <td>Hamsters</td>
+        <td>KSH 7000</td>
+      </tr>
+      <tr>
+        <td>Rabbit</td>
+        <td>KSH 3000</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 PAWSIES Pet Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
