@@ -5,13 +5,14 @@
     box-sizing: border-box;
   }
    
-  /* Example CSS to style the logo */
-/*header img {
-    width: 150px;  
-   /*height: auto;  
-    /*display: block; 
-   /* margin: 0 auto; 
-  }*/
+  /*CSS to style the logo */
+header img {
+    width: 80px;  
+     height: 70px;  
+    display: inline-left; 
+    margin: 20px; 
+    border-radius: 100%;
+  }
   
   /* Body  */
   body {

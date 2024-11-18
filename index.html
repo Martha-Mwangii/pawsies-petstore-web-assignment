@@ -12,7 +12,7 @@
   <header>
     <h1>Welcome to PAWSIES</h1>
 
-   <!-- <img src="images/PAWSIES.jpeg" alt="Pawsies Logo" title="Pawsies Pet Store Logo"> --> 
+   <!--<img src="images/PAWSIES.jpeg" alt="Pawsies Logo" title="Pawsies Pet Store Logo"> -->
     <nav>
       <a href="#about-us">About Us</a>
       <a href="#supplies">Supplies</a>
@@ -69,38 +69,17 @@
 
   <!-- grooming Tutorial Video -->
   <section id="tutorial">
-    <h2>Pet Care Tutorial</h2>
-    <p>Watch our tutorial on how to properly groom your pet:</p>
-    <video width="320" height="240" controls>
-      <source src="video/pet-grooming.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <h2>Pet Training Tutorial</h2>
+    <p>Watch our tutorial on how to properly training your pet:</p>
+    <iframe width="500" height="300" 
+        src="https://www.youtube.com/embed/HTXajoc4a3k" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen> 
+</iframe>
   </section>
 
-  
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or would like to schedule an appointment, please fill the form below:</p>
-    <form action="/submit" method="post">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Your Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-
-  <!-- google map section-->
-  <section id="location">
-    <h2>Find Us</h2>
-    <p>We are located in the  city. Visit our store to meet our pets ,for supplies and available services:</p>
-    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </section>
 
   <!-- Table -->
   <section id="pricing">
@@ -128,6 +107,31 @@
       </tr>
     </table>
   </section>
+
+ <!-- google map section-->
+ <section id="location">
+  <h2>Find Us</h2>
+  <p>We are located in the  city. Visit our store to meet our pets ,for supplies and available services:</p>
+  <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or would like to schedule an appointment, please fill the form below:</p>
+  <form action="/submit" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+</section>
 
   <!-- Footer -->
   <footer>
